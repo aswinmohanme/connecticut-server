@@ -25,7 +25,7 @@ SECRET_KEY = '-)lu++_wk&-i7*y)35zv=2ahs=qa!r((j@d$!(j@*2j!iw$-0s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', '192.168.1.103']
 
 
 # Application definition
@@ -121,5 +121,5 @@ STATICFILES_DIRS=["/home/atvinod/sandbox/connecticut/static"]
 
 STATIC_URL = '/static/'
 
-MEDIA_ROOT="/home/atvinod/sandbox/connecticut/media/"
+MEDIA_ROOT="/home/aswinmohanme/connecticut/media/"
 MEDIA_URL='/media/'
